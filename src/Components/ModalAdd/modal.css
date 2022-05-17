@@ -1,0 +1,48 @@
+.container_edit {
+
+  z-index: 2;
+
+  position: absolute;
+  top: 30%; right: 50%;
+  transform: translate(50%,-50%);
+  width: 250px;
+  
+  /* border: 1px solid black; */
+  padding: 15px;
+  border-radius: 5px;
+
+  background-color: white;
+}
+.wrap_edit_input {
+  margin-top: 10px;
+}
+.title_edit {
+  text-align: center;
+}
+.label_edit {
+  display: inline-block;
+  width: 50px;
+}
+.edit_input {
+  width: 200px;
+  height: 30px;
+  box-sizing: border-box;
+}
+.submit_edit {
+  display: block;
+
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: green;
+  color: rgb(239, 239, 239);
+  font-weight: bold;
+
+  cursor: pointer;
+  margin: auto;
+  margin-top: 10px;
+}
+.submit_edit:hover{
+    background-color: rgb(0, 161, 0);
+
+}
